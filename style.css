@@ -1,0 +1,130 @@
+.bg-image{
+    background-image:url("https://res.cloudinary.com/ddjjx7t57/image/upload/v1707806625/20244486_6252653_s1zoc6.jpg");
+    background-size:cover;
+    height:100vh;
+}
+#card-1{
+    height:590px;
+    width:510px;
+    background-color:transparent;
+    text-align:center;
+    border: 2px solid white;
+    background-image:url("https://res.cloudinary.com/ddjjx7t57/image/upload/v1707806624/9901860_4289694_olvygw.jpg");
+    background-size:cover   ;
+    /* background-image:linear-gradient(0deg, rgba(153,78,204,1) 0%, rgba(62,24,122,1) 73%);
+    */
+    border-radius:15px;
+
+}
+.imga-siz{
+    height:70px;
+    width:70px;
+    border-radius:30px;
+    padding:5px;
+}
+.Na-sty{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    margin-left:15px;
+    color:black;
+
+}
+a:link{
+    text-decoration: blue underline;
+   
+} 
+input{
+    height:50px;
+    width:350px;
+    border-radius:15px;
+    padding-left:25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+     background-color:transparent; 
+     color:white; 
+     border: 1px solid white;
+}
+
+.seach_simple{
+    height:50px;
+    width:350px;
+}
+
+#bname{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    border-radius:25px;
+    background-color:transparent;
+    border:none;
+ 
+}
+#iconsize{
+    height:40px;
+    width:40px;
+    border-radius:30px;
+}
+
+#photo-size{
+    height:100px;
+    width:100px;
+    margin-top:30px;
+}
+#cityname{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+}
+
+#weather_celsius{
+    font-family:'Times New Roman', Times, serif;
+    font-size:70px;
+    color:white;
+}
+
+#photo-size-1{
+    height:50px;
+    width:50px;
+    margin-top:30px;
+    color:white;
+    
+}
+h5{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size:15Spx;
+}
+#small-card{
+    border: 2px solid white;
+    width:150px;
+    height:180px;
+    margin-top:15px;
+    border-radius:15px;
+
+
+}
+#small-card2{
+    border: 2px solid white;
+    width:150px;
+    height:180px;
+    margin-top:15px;
+    border-radius:15px;
+
+
+}
+#small-card3{
+    border: 2px solid white;
+    width:150px;
+    height:180px;
+    margin-top:15px;
+    border-radius:15px;
+
+
+}
+input:placeholder{
+    font-family:'Times New Roman', Times, serif;
+}
