@@ -2,7 +2,7 @@ function valid(){
 
     var statename=document.getElementById("fname").value
      result=statename.toLowerCase()
-     console.log(result);
+ 
      
      
 var img_1="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707795919/beautiful-landscape-river-mountainous-forest-covered-fog-zuid-kennemerland_c5yqrn.jpg"
@@ -42,8 +42,14 @@ var img_1="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707795919/beautif
       else if(weathermood=="Mist"){
         weather_image.src="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707803382/cloud-logo-weather-forecasting-thunderstorm-symbol-weather-map-yellow-meteorological-phenomenon-png-clipart-removebg-preview_pwb9pr.png"
       }
+      else if(weathermood=="Smoke"){
+        weather_image.src="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707813539/1-17559_air-conclusion-transparent-background-cartoon-cloud-hd-png-removebg-preview_clfecl.png"
+      }
+      else if(weathermood=="Haze"){
+        weather_image.src="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707813539/4151022-removebg-preview_eetnqg.png"
+      }
       else{
-        weather_image.src="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707805951/202193759_partly-mostly-cloudy-clouds_t800_jfs6pa.jpg"
+        weather_image.src="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707812993/202193759_partly-mostly-cloudy-clouds_t800-removebg-preview_vmwk6j.png"
       }
       
 
@@ -82,7 +88,7 @@ ele.addEventListener("mouseover",()=>{
 
 })
 ele.addEventListener("mousedown",()=>{
-    document.getElementById("fname").style.ackgroundImage=""
+    document.getElementById("fname").style.backgroundImage=""
 
 })
 
