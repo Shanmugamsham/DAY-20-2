@@ -57,16 +57,30 @@ var img_1="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707795919/beautif
      color_box.addEventListener("mouseover",()=>{
         color_box.style.backgroundImage="linear-gradient(0deg, rgba(62,24,122,1) 0%, rgba(153,78,204,1) 73%)"
      })
+     
+     var color_box_l=document.getElementById("small-card")
+     color_box_l.addEventListener("click",()=>{
+        color_box_l.style.backgroundImage=""
+     })
      var color_box2=document.getElementById("small-card2")
      color_box2.addEventListener("mouseover",()=>{
         color_box2.style.backgroundImage="linear-gradient(0deg, rgba(62,24,122,1) 0%, rgba(153,78,204,1) 73%)"
+     })
+
+     var color_box_l2=document.getElementById("small-card2")
+     color_box_l2.addEventListener("click",()=>{
+        color_box_l2.style.backgroundImage=""
      })
 
      var color_box3=document.getElementById("small-card3")
      color_box3.addEventListener("mouseover",()=>{
         color_box3.style.backgroundImage="linear-gradient(0deg, rgba(62,24,122,1) 0%, rgba(153,78,204,1) 73%)"
      })
-
+     
+     var color_box_l3=document.getElementById("small-card3")
+     color_box_l3.addEventListener("click",()=>{
+        color_box_l3.style.backgroundImage=""
+     })
 
 
  }).catch(()=>{
@@ -87,7 +101,8 @@ ele.addEventListener("mouseover",()=>{
     document.getElementById("fname").style.backgroundImage="linear-gradient(0deg, rgba(153,78,204,1) 0%, rgba(62,24,122,1) 73%)"
 
 })
-ele.addEventListener("mousedown",()=>{
+var ele1=document.getElementById("fname")
+ele1.addEventListener("mouseleave",()=>{
     document.getElementById("fname").style.backgroundImage=""
 
 })
