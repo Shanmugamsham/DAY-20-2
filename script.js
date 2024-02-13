@@ -63,6 +63,10 @@ var img_1="https://res.cloudinary.com/ddjjx7t57/image/upload/v1707795919/beautif
 
 
 
+ }).catch(()=>{
+    alert("sorry!!! City Cannot be found ")
+    alert("Enter The Right City Name")
+
  });
 
  }
