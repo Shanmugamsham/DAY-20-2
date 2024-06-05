@@ -1,11 +1,10 @@
 .bg-image{
     background-image:url("https://res.cloudinary.com/ddjjx7t57/image/upload/v1707806625/20244486_6252653_s1zoc6.jpg");
     background-size:cover;
-    height:100vh;
 }
 #card-1{
-    height:590px;
-    width:510px;
+   
+    width:100%;
     background-color:transparent;
     text-align:center;
     border: 2px solid white;
@@ -14,6 +13,7 @@
     /* background-image:linear-gradient(0deg, rgba(153,78,204,1) 0%, rgba(62,24,122,1) 73%);
     */
     border-radius:15px;
+    margin-bottom:30px;
 
 }
 .imga-siz{
@@ -31,8 +31,9 @@
 }
 
 input{
+
     height:50px;
-    width:350px;
+    width:50%;
     border-radius:15px;
     padding-left:25px;
     font-family:'Times New Roman', Times, serif;
@@ -101,7 +102,7 @@ p{
     height:180px;
     margin-top:15px;
     border-radius:15px;
-
+    margin-bottom:30px;
 
 }
 #small-card2{
@@ -110,7 +111,7 @@ p{
     height:180px;
     margin-top:15px;
     border-radius:15px;
-
+    margin-bottom:30px;
 
 }
 #small-card3{
@@ -119,7 +120,7 @@ p{
     height:180px;
     margin-top:15px;
     border-radius:15px;
-
+    margin-bottom:30px;
 
 }
 input:placeholder{
